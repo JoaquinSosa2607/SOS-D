@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
 
 body {
-    background-image: url(Fondo.png);
+    background: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);
     background-size: cover;
     font-family: Prompt;
     margin: 0;
@@ -11,15 +11,17 @@ body {
 
 /* Estilos de la barra de navegación */
 header {
-    background-image: url(Fade.png);
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
     color: #fff;
-    padding: 0.5em;
+    padding-right: 1em;
+    
 }
 
 .nav-bar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 45px;
 }
 
 .nav-btns,
@@ -33,7 +35,7 @@ nav ul li a {
 }
 
 .logo {
-    max-width: 15em;
+    max-width: 10em;
     height: auto;
 }
 
@@ -45,11 +47,13 @@ main {
 }
 
 section {
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 100%;
     max-width: 800px;
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: whitesmoke;
 }
 .section-container{
     display: flex;
